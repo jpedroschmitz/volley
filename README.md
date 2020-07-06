@@ -24,5 +24,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 npm test
 ```
 
-_ps: The best way to test an application like this is by doing e2e test, with Cypress.
+_ps: The best way to test an application like this is by doing e2e test with Cypress.
 As I didn't have the time to do it, I have just used `jest` with `testing-library` and created small tests to check if title, winner and other things were being displayed._
