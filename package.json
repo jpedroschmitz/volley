@@ -1,11 +1,13 @@
 {
-  "name": "volei",
-  "version": "0.1.0",
+  "name": "volley",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest --watch",
+    "test:ci": "jest --ci"
   },
   "dependencies": {
     "next": "9.4.4",
@@ -15,8 +17,15 @@
     "react-toastify": "^6.0.8"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.0",
+    "@testing-library/react": "^10.4.4",
+    "@types/jest": "^26.0.3",
     "@types/node": "^14.0.14",
     "@types/react": "^16.9.41",
+    "babel-jest": "^26.1.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.1.0",
+    "react-test-renderer": "^16.13.1",
     "typescript": "^3.9.6"
   }
 }
